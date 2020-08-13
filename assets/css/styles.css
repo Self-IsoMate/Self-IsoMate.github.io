@@ -1,0 +1,31 @@
+     
+  @media screen and (max-width: 1150px) {
+    #ribbon{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+	.iphone-mockup { 
+	  display: none;
+   } 
+  }
+
+
+  @media only screen and (max-device-width: 580px) {
+	.show-mobile {
+	  display: block;
+	}
+	.hide-mobile {
+	  display: none;
+	}
+  }
+
+@media only screen and (min-device-width: 581px) {
+	.show-mobile {
+	  display: none;
+	}
+	.hide-mobile {
+	  display: block;
+	}
+  }
